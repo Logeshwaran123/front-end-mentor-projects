@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loop Studios Landing Page</title>
+    <!-- Google Fonts -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicons -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="black-background"></div>
+      <nav>
+        <img src="./images/logo.svg" alt="ico-logo" class="img-logo" />
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="ham-menu"
+          class="menu-icon ham-menu active-menu"
+        />
+        <img
+          src="./images/icon-close.svg"
+          alt="close-menu"
+          class="menu-icon close-menu"
+        />
+        <div class="nav-panel">
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Events</a>
+          <a href="#">Products</a>
+          <a href="#">Support</a>
+        </div>
+      </nav>
+      <h1 class="hero-content">IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+    </header>
+
+    <main>
+      <picture>
+        <source
+          media="(max-width: 375px)"
+          srcset="./images/mobile/image-interactive.jpg"
+        />
+        <img
+          src="./images/desktop/image-interactive.jpg"
+          alt="image-interactive"
+          class="img-interactive"
+        />
+      </picture>
+      <div class="content-interactive">
+        <h2>THE LEADER IN INTERACTIVE VR</h2>
+        <p>
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
+        </p>
+      </div>
+    </main>
+    <main>
+      <div class="grid-container">
+        <div class="creations-head-row">
+          <h2>OUR CREATIONS</h2>
+          <button>SEE ALL</button>
+        </div>
+        <div class="row">
+          <picture>
+            <source
+              media="(max-width: 375px)"
+              srcset="./images/mobile/image-deep-earth.jpg"
+            />
+            <img
+              src="./images/desktop/image-deep-earth.jpg"
+              alt="image-deep-earth"
+            />
+          </picture>
+        </div>
+        <div class="row"></div>
+      </div>
+    </main>
+    <!-- Script JS File -->
+    <script src="index.js"></script>
+  </body>
+</html>
